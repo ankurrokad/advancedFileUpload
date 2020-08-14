@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.post('/file-upload', async (req, res) => {
     try {
-        let type = 2
+        let type = 1
 
         // let config = {
         //     path: './upload'
